@@ -1,6 +1,6 @@
 import React from "react";
 // Choose folder
-import CustomApp from "./40-more-components/customApp";
+import CustomApp from "./41-refactoring/customApp";
 
 export default function App() {
   return <CustomApp />;
