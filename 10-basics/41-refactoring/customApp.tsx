@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FlatList, StyleSheet, View } from "react-native";
 import { GoalItem } from "./components/GoalItem";
-import { GoalInput } from "./GoalInput";
-import { GoalType } from "./types/goalType";
+import { GoalInput } from "./components/GoalInput";
+import { GoalType } from "./models/goalType";
 
 export default function CustomApp() {
   const [goals, setGoals] = useState([] as GoalType[]);

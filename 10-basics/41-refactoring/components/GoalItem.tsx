@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import { GoalType } from "../types/goalType";
+import { GoalType } from "../models/goalType";
 
 type PropType = {
   item: GoalType;
