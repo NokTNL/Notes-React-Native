@@ -23,3 +23,10 @@
 - Add a new `launch.json` file in the `.vscode` folder (see more details in the file)
 - `yarn start` to run expo, then open simulators as usual
 - Run the "Attach to packager" debug session from VS Code to enable remote JS debug from VS Code (otherwise will debug in a new Chrome browser)
+- When you want to stop debugging, choose "Stop Debug Remotely" in Expo Go FIRST, AND THEN stop in VS Code, to avoid errors
+
+## Using React DevTools
+
+- `yarn add react-devtools`
+- Start the DevTools in a separate terminal: `yarn react-devtools`. This will spin up a window that listens whenever you set "Debug Remote JS" in the Expo Go app
+- Choose "Debug Remote JS" in the app and the DevTool will show the whole virtual DOM, etc.
