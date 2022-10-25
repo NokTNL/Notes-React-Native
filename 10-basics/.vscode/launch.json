@@ -1,0 +1,16 @@
+// To create this debug config, go to VS Code "Run & Debug" tab, select "create a launch.json file"
+// Then, click "Add Configuration" button at bottom-right, choose React Native --> Attach to application --> Classic application`
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to packager",
+      "cwd": "${workspaceFolder}",
+      "type": "reactnative",
+      "request": "attach",
+      "port": 19000, // this depends on the oprt exposed by `expo start`
+      "sourceMaps": true
+    }
+  ]
+}

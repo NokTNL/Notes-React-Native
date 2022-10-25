@@ -16,3 +16,10 @@
 
 - `npx expo start` or `yarn start`, then scan the QR code on your phone to open it in Expo Go
 - If you want to use a simulator instead, install Android Studio for Android, or XCode for iOS, and then choose the appropriate options after starting the development server
+
+## Debugging in VS Code
+
+- Download the "React Native Tools" extension
+- Add a new `launch.json` file in the `.vscode` folder (see more details in the file)
+- `yarn start` to run expo, then open simulators as usual
+- Run the "Attach to packager" debug session from VS Code to enable remote JS debug from VS Code (otherwise will debug in a new Chrome browser)
