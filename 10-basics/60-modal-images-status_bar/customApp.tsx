@@ -30,6 +30,7 @@ export default function CustomApp() {
   return (
     <>
       {/* Expo Status Bar is an API that tells how the mobile's status bar shoule be displayed. E.g. setting style = "light" will change it to a lighter colour, contrasting from our darker app background */}
+      {/* It does NOT need to be at the top level. You can multiple <StatusBar> elements in your app; props from all <StatusBar>'s will be merged in the order they are mounted, like "inheritance" */}
       <StatusBar style="light" />
       <View style={styles.appContainer}>
         <Button
